@@ -386,7 +386,7 @@ body {
     color: var(--general-white);
 }
 /* footer social */
-.container {
+.footer-container {
     display: flex;
 }
 .footer-social{

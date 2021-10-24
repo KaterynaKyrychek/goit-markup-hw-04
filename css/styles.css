@@ -135,14 +135,11 @@ body {
 }
 .contats-link:hover,.contats-link:focus {
     color: var(--accent-color);
-    fill: currentColor;
+    fill: #2196F3;
 }
 .contats-icon {
     margin-right: 10px;
-    fill: #AFB1B8;
-    /* fill: currentColor; */
 }
-
 /* hero */
 .hero-section {
     padding-top: 200px;
@@ -242,8 +239,7 @@ body {
     margin-right: 30px;
 }
 .team-name {
-    /* margin-top: 30px;
-    margin-bottom: 10px; */
+    margin-bottom: 10px;
     text-align: center;
     font-weight: 500;
     font-size: 16px;
@@ -251,8 +247,7 @@ body {
     color: var(--primary-text-color);
 }
 .team-text {
-    margin-top: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 16px;
     text-align: center;
     font-size: 16px;
     line-height: 1.19;
@@ -286,7 +281,6 @@ body {
 /* clients section */
 .clients-link {
     display: flex;
-    /* flex-direction: row; */
     justify-content: center;
     align-items: center;
     width: 170px;
@@ -303,6 +297,9 @@ body {
 }
 .clients-icon {
     fill:#AFB1B8;
+}
+.clients-icon:hover,.clients-icon:focus {
+    fill: #2196F3;
 }
 /* portfolio */
 /* button-section */
@@ -389,6 +386,9 @@ body {
     color: var(--general-white);
 }
 /* footer social */
+.container {
+    display: flex;
+}
 .footer-social{
     display: flex;
     margin-left: 70px;
@@ -398,6 +398,20 @@ body {
     text-transform: uppercase;
     color: var(--general-white);
     margin-bottom: 20px;
-
 }
-.
+.footer-social-link {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    fill: var(--general-white);
+}
+.footer-social-link:hover,.footer-social-link:focus {
+    background-color: var(--accent-color);
+    fill: var(--general-white);
+}
+.footer-social-link:not(:last-child) {
+    margin-right: 10px;
+}

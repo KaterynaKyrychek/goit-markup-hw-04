@@ -127,18 +127,20 @@ body {
 .contacts-item:not(:last-child) {
     margin-right: 50px;
 }
-.contats-link {
+.contacts-link {
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: inherit;
 }
-.contats-link:hover,.contats-link:focus {
+.contacts-link:hover,
+.contacts-link:focus {
     color: var(--accent-color);
-    fill: #2196F3;
+    fill: currentColor;
 }
-.contats-icon {
+.contacts-icon {
     margin-right: 10px;
+    fill: currentColor;
 }
 /* hero */
 .hero-section {
@@ -340,8 +342,12 @@ body {
 .filter-item {
     margin-right: 30px;
     margin-bottom: 30px;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
+.filter-item:hover,.filter-item:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+
+}
+    
 .filter-item:nth-child(3n) {
     margin-right: 0;
 }
@@ -388,9 +394,13 @@ body {
 /* footer social */
 .footer-container {
     display: flex;
+    align-items: baseline;
+    width: 1200px;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 .footer-social{
-    display: flex;
     margin-left: 70px;
 }
 .social-title{
@@ -400,18 +410,19 @@ body {
     margin-bottom: 20px;
 }
 .footer-social-link {
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 44px;
     height: 44px;
     border-radius: 50%;
     fill: var(--general-white);
+    background: rgba(255, 255, 255, 0.1);
 }
 .footer-social-link:hover,.footer-social-link:focus {
     background-color: var(--accent-color);
     fill: var(--general-white);
 }
-.footer-social-link:not(:last-child) {
+.footer-social-item:not(:last-child) {
     margin-right: 10px;
 }

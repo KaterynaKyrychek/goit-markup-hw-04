@@ -128,7 +128,9 @@ body {
     margin-right: 50px;
 }
 .contacts-link {
-    font-weight: 500;
+    display: flex;
+    align-items: center;
+    align-items: center;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: inherit;
@@ -144,12 +146,16 @@ body {
 }
 /* hero */
 .hero-section {
+    width: 1600px;
     padding-top: 200px;
     padding-bottom: 200px;
     align-items: center;
     text-align: center;
     background-color: var(--primary-background-color);
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/overlay.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .hero-name {
     margin: 0 auto;

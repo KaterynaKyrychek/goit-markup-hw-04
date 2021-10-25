@@ -147,6 +147,7 @@ body {
 /* hero */
 .hero-section {
     width: 1600px;
+    margin: 0 auto;
     padding-top: 200px;
     padding-bottom: 200px;
     align-items: center;

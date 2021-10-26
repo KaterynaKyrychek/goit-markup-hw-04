@@ -297,20 +297,21 @@ body {
     height: 90px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
+    fill: var(--icons-color);
 }
 .clients-item:not(:last-child) {
     margin-right: 30px;
 }
 .clients-link:hover,.clients-link:focus {
     border: 1px solid #2196F3;
-    border-radius: 4px;
+    fill: var(--accent-color);
 }
-.clients-icon {
+/* .clients-icon {
     fill:#AFB1B8;
-}
-.clients-icon:hover,.clients-icon:focus {
+} */
+/* .clients-icon:hover,.clients-icon:focus {
     fill: #2196F3;
-}
+} */
 /* portfolio */
 /* button-section */
 .button-list {
